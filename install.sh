@@ -13,16 +13,16 @@ echo "Обновление списка пакетов и установка с�
 sudo apt update
 sudo apt install -y $APT_PACKAGES
 
-echo "Клонирование репозитория..."
+#echo "Клонирование репозитория..."
 REPO_DIR=$(basename "$REPO_URL" .git)
-git clone "$REPO_URL"
-cd "$REPO_DIR"
+#git clone "$REPO_URL"
+#cd "$REPO_DIR"
 
 echo "Создание виртуального окружения Python..."
-python3 -m venv venv
+python3 -m venv sonenv
 
 echo "Активация окружения и установка зависимостей pip..."
-source venv/bin/activate
+source sonenv/bin/activate
 
 pip install --upgrade pip
 if [ -f "req.txt" ]; then
