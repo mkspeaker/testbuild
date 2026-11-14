@@ -1,0 +1,13 @@
+xmltodict
+requests
+wikipedia-api
+sounddevice
+soundfile
+logging
+piper-tts
+vosk
+fuzzywuzzy
+ru_word2number
+datetime
+apscheduler
+importlib

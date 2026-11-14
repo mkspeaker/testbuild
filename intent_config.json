@@ -1,0 +1,121 @@
+{
+	"yt": {
+		"keys": ["ютуб", "ютьюб"],
+		"auxiliary_keys":["видео","музыку","клип","подкаст"],
+		"intentcategory": ["start", "find"],
+		"keyphrases": ["найди на ютуб", "включи на ютуб"],
+		"percent": [88, 30]
+	},
+
+	"wiki": {
+		"keys": ["вики", "википедия", "информация", "биография", "история"],
+		"auxiliary_keys":["статью","личность"],
+		"intentcategory": ["find"],
+		"keyphrases": ["найди в википедии", "расскажи про", "кто такой", "что такое"],
+		"percent": [88, 30]
+	},
+
+	"llm": {
+		"keys": ["подумай", "объясни", "перескажи", "сгенерируй", "составь", "перефразируй"],
+		"intentcategory": ["think", "question"],
+		"keyphrases": ["расскажи про", "сгенерируй", "перескажи статью", "что значит"],
+		"percent": [88, 30]
+	},
+
+	"news": {
+		"keys": ["новости", "события", "ситуация"],
+		"auxiliary_keys":["вчера","сегодня", "неделе","последние"],
+		"intentcategory": ["tell", "question"],
+		"keyphrases": ["расскажи новости", "какие новости", "последние события", "что пишут", "что нового"],
+		"percent": [88, 30]
+	},
+
+    "weather": {
+    	"keys": ["погода", "температура", "прогноз","дождь", "снег"],
+		"intentcategory": ["question", "miscellaneous"],
+		"keyphrases": ["сейчас погода", "сколько градусов"],
+		"percent": [88, 30]
+    },
+
+    "alarm": {
+    	"keys": ["будильник"],
+		"intentcategory": ["start", "stop", "set"],
+		"keyphrases": ["поставь будильник", "отключи будильник", "выключи будильник", "разбуди завтра"],
+		"percent": [88, 30]
+    },
+
+    "time": {
+    	"keys": ["время", "времени"],
+		"intentcategory": ["question"],
+		"keyphrases": ["сколько времени", "который час"],
+		"percent": [88, 30]
+    },
+
+    "tv": {
+    	"keys": ["канал", "телеканал"],
+		"intentcategory": ["start"],
+		"keyphrases": ["включи телеканал"],
+		"percent": [88, 30]
+    },
+    
+    "radio": {
+    	"keys": ["радио", "радиостанцию", "станция"],
+		"intentcategory": ["start"],
+		"keyphrases": ["включи радио", "включи радиостанцию"],
+		"percent": [88, 30]
+    },
+
+    "arithmetic" : {
+    	"keys": ["посчитай"],
+    	"auxiliary_keys":["умножить", "разделить", "плюс", "минус", "сумма", "разность"],
+    	"intentcategory": ["question"],
+    	"keyphrases": ["сколько будет"],
+    	"percent": [88, 30]
+    },
+
+	"currencies" : {
+    	"keys": ["стоит", "курс"],
+    	"auxiliary_keys":["доллар", "евр"],
+    	"intentcategory": ["question"],
+    	"keyphrases": ["сколько стоит", "курс валют", "сколько стоят"],
+    	"percent": [88, 30]
+    },
+
+    "greeting": {
+    	"keys": ["привет"],
+    	"intentcategory": ["miscellaneous"],
+    	"keyphrases": ["здравствуйте" ,"привет", "доброе утро", "добрый день"],
+    	"percent": [88,30]
+    },
+
+    "timer": {
+    	"keys": ["таймер"],
+    	"auxiliary_keys": ["минут", "секунд", "час"],
+    	"intentcategory": ["start"],
+    	"keyphrases": ["поставь таймер на"],
+    	"percent": [88,30]
+    },
+
+    "reminder": {
+    	"keys": ["напоминание", "напомни"],
+    	"auxiliary_keys": ["часов", "минут", "секунд", "через"],
+    	"intentcategory": ["start","miscellaneous"],
+    	"keyphrases": ["поставь напоминание на", "напомни что"],
+    	"percent": [88,30]
+    },
+
+    "stopmpv": {
+    	"keys": ["радио","музыку"],
+    	"intentcategory": ["stop"],
+    	"keyphrases": ["выключи радио", "выключи музыку"],
+    	"percent": [80,30]
+    },
+    
+    "websearch": {
+    	"keys": ["интернет", "сеть"],
+    	"intentcategory": ["find", "question"],
+    	"keyphrases": ["найди в интернете"],
+    	"auxiliary_keys": ["сегодня", "сейчас"],
+    	"percent": [84,30]
+    }
+}
